@@ -18,7 +18,7 @@ spring:
     enabled: true
     change-log: classpath:db/changelog/db.changelog-master.xml
     contexts: development
-    default-schema: my_schema
+    default-schema: public
     drop-first: false
 
 eureka:
